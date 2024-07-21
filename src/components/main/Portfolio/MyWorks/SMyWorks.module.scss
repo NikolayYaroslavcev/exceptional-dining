@@ -1,0 +1,57 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  max-width: 610px;
+  text-align: center;
+  gap: 20px;
+  flex: 1 1 25%;
+  max-height: 500px;
+  padding: 30px 10px;
+  background-color: #212228;
+  transition: all .5s ease-in;
+  border-radius: 20px;
+  margin: 0 7px 0 7px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .imag {
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  .workBlock {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
+    .link {
+      cursor: pointer;
+      font-weight: bold;
+      border: 1px solid #fff;
+      border-radius: 8px;
+      color: #fff;
+      transition: 0.3s all;
+      text-align: center;
+      padding: 10px 30px;
+
+      &:hover {
+        background-color: #fff;
+        color: #18191d;
+      }
+    }
+
+  }
+
+  .tittle {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 2;
+  }
+
+  .text {
+    line-height: 1.5;
+  }
+
+}

@@ -1,0 +1,106 @@
+.skills {
+  padding: 30px 0;
+
+  .__container {
+
+    .title {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 12px;
+      color: #868a9b;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 40px;
+
+    }
+
+    .text {
+      font-size: 60px;
+      line-height: 1.2em;
+      font-weight: 700;
+      margin-bottom: 70px;
+    }
+
+    .skill {
+      padding: 0 -10px;
+    }
+
+
+  }
+}
+
+////////////////////MEDIA//////////////////////////////////
+
+
+@media (max-width: 1199px) {
+  .skills {
+
+    .__container {
+
+      .title {
+
+      }
+
+      .text {
+        font-size: 39px;
+
+      }
+
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .skills {
+    .__container {
+      .text {
+        font-size: 47px;
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 425.98px) {
+  .skills {
+    text-align: center;
+    .__container {
+      .text {
+        margin-bottom: 20px;
+        font-size: 27px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375.98px) {
+  .skills {
+
+    .__container {
+      .text {
+        font-size: 27px;
+      }
+      .skill {
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320.98px) {
+  .skills {
+    .__container {
+      .text {
+        font-size: 25px;
+      }
+    }
+  }
+
+}
+
+
+
+

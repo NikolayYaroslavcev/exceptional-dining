@@ -1,0 +1,87 @@
+.formBlock {
+  flex: 0 0 auto;
+  width: 50%;
+  align-items: center;
+
+
+  @media (max-width: 624.98px) {
+    width: 70%;
+  }
+
+  @media (max-width: 425.98px) {
+    width: 100%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+
+    .input {
+      max-width: 100%;
+      margin-bottom: 20px;
+      padding: 15px 0;
+      height: auto;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-width: 0 0 2px;
+      border-style: solid;
+      display: block;
+      width: 100%;
+      line-height: 1.5em;
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #868a9b;
+      background-image: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    }
+
+
+    .inputTextarea {
+      max-width: 100%;
+      margin-bottom: 20px;
+      padding: 15px 0;
+      height: auto;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-width: 0 0 2px;
+      border-style: solid;
+      display: block;
+      width: 100%;
+      line-height: 1.5em;
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #868a9b;
+      background-image: none;
+      border-bottom: 2px solid
+    }
+
+  }
+
+  .formBlockButton {
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4e4e4e;
+    padding: 10px 30px;
+    border-radius: 10px;
+    align-self: stretch;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #fff;
+      color: #666;
+    }
+  }
+}
